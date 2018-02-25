@@ -433,13 +433,3 @@ subm = pd.DataFrame({'id':test_feat.store_id + '_' + test_feat.visit_date,'visit
 subm = submission[['id']].merge(subm,on='id',how='left').fillna(0)
 subm.to_csv(r'..\sub{}.csv'.format(datetime.datetime.now().strftime('%Y%m%d_%H%M%S')),
                   index=False,  float_format='%.4f')
-
-
-
-
-
-
-
-
-
-
