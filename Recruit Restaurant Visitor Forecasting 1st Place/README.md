@@ -8,7 +8,7 @@
 * get_store_exp_visitor_feat</br>
 计算每个饭店顾客数量的指数加权平均值。</br>
 * get_store_week_feat</br>
-统计每个饭店在每个周几顾客数量的最小值、最大值、平均值、中位数、出现了多少次、标准差和偏度。</br>  
+统计每个饭店在每个周几顾客数量的最小值、最大值、平均值、中位数、出现了多少次、标准差和偏度。</br>
 * get_store_week_diff_feat</br>
 计算每个饭店当天与前一天顾客数之差的平均值、标准差、最大值和最小值。</br>
 * get_store_all_week_feat</br>
