@@ -1,2 +1,2 @@
 # kaggle
-kaggle competition
+kaggle competition code.
