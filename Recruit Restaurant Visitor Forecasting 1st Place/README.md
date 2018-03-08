@@ -29,3 +29,9 @@
 统计每个商店第一次和最后一次出现距离滑动窗口的天数。</br>
 * get_reserve_feat</br>
 提取一些与预定信息相关的特征。
+## 模型
+* lightgbm
+## 语言
+* python3
+## 运行
+将原始数据文件放入../data/目录下，运行python script.py即可。
