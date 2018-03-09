@@ -400,9 +400,6 @@ start_date = '2017-03-12'
 for i in range(58):
     train_feat_sub = make_feats(date_add_days(start_date, i*(-7)),39)
     train_feat = pd.concat([train_feat,train_feat_sub])
-for i in range(1,6):
-    train_feat_sub = make_feats(date_add_days(start_date,i*(7)),42-(i*7))
-    train_feat = pd.concat([train_feat,train_feat_sub])
 test_feat = make_feats(date_add_days(start_date, 42),39)
 
 
