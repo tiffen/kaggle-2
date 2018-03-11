@@ -23,7 +23,7 @@
 计算每种类型饭店顾客数量的指数加权平均值。</br>
 * get_genre_week_feat</br>
 统计每种类型饭店每个周几顾客数量的最小值、平均值、中位数、出现了多少次、最大值、标准差以及偏度。</br>
-* get_genre_week_exp_feat
+* get_genre_week_exp_feat</br>
 计算每个类型饭店每个周几顾客数量的指数加权平均值。</br>
 * get_first_last_time</br>
 统计每个商店第一次和最后一次出现距离滑动窗口的天数。</br>
